@@ -30,7 +30,7 @@ body {
   color: white;
   z-index: 100;
   cursor: pointer;
-  font-size: 3rem;  
+  font-size: 3rem;
 }
 
 #desk-nav {
@@ -50,7 +50,7 @@ body {
   background: #3c3a39;
   color: #fff5e1;
   list-style: none;
-  margin: 0;  
+  margin: 0;
   padding-top: 20%;
 }
 
@@ -63,7 +63,6 @@ body {
   width: 80%;
   padding-top: 5%;
   margin-top: 2rem;
-
 }
 
 .nav_a {
@@ -73,11 +72,7 @@ body {
   line-height: 44px;
   color: #fff5e1;
   text-decoration: none;
-  
 }
-
-
-
 
 #mob-nav {
   background-color: gainsboro;
@@ -99,8 +94,8 @@ section {
   background: url(Images/textbg.png) no-repeat center center;
   background-size: cover;
   -webkit-text-fill-color: transparent;
+  background-clip: border-box;
   -webkit-background-clip: text;
-  background-clip: text;
   font-size: 20px;
   margin-bottom: 0;
   font-weight: 500;
@@ -110,8 +105,8 @@ section {
   background: url(Images/textbg.png) no-repeat center center;
   background-size: cover;
   -webkit-text-fill-color: transparent;
+  background-clip: border-box;
   -webkit-background-clip: text;
-  background-clip: text;
   font-size: 32px;
   margin-top: 0;
   font-weight: 750;
@@ -208,7 +203,7 @@ section {
   border: none;
   color: white;
   align-self: center;
-  font-family: 'Lato',sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 600;
   font-size: 23px;
 }
@@ -230,9 +225,9 @@ section {
 
   .head-container {
     position: fixed;
-    width: 100vw;    
+    width: 100vw;
   }
-  
+
   .show {
     transform: translateX(-100%);
   }
@@ -242,14 +237,11 @@ section {
     flex-direction: row;
     justify-content: space-between;
     background-color: honeydew;
-    
-    
   }
 
   .desk-nav-list {
     display: flex;
     list-style-type: none;
-    
   }
 
   .desk-nav-list-items {
@@ -299,22 +291,21 @@ section {
     text-align: left;
   }
 
-  #main-eve{
+  #main-eve {
     justify-items: center;
   }
 
   #event-list {
     display: grid;
-    grid-template-columns: repeat(5,1fr);    
+    grid-template-columns: repeat(5, 1fr);
     width: 75%;
     justify-items: end;
-
   }
 
   .eve-li-item {
     display: flex;
-    flex-direction: column;  
-    justify-content: flex-start;  
+    flex-direction: column;
+    justify-content: flex-start;
     width: 90%;
     height: 90%;
   }
@@ -333,12 +324,12 @@ section {
   }
 
   .eve-title {
-    margin-top:0;
+    margin-top: 0;
   }
 
   .eve-p {
     width: 80%;
-    margin:0 0 2rem 0;
+    margin: 0 0 2rem 0;
     font-size: 14px;
   }
 
@@ -352,14 +343,4 @@ section {
     margin-bottom: 0;
     padding: 0;
   }
-
-  
-
-
-
-
-
-
 }
-
-
