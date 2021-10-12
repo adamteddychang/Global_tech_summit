@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Capstone project
 
-> One paragraph statement about the project.
+> In this project, I will build a conference page with html, css and javascript. 
 
 ![screenshot](./app_screenshot.png)
 
@@ -10,34 +10,27 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- html
+- CSS
+- Javascript
+
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://adamteddychang.github.io/Week-5-capstone)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+
 
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
 ### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+- Clone this Repository
+- You can do so on the website Girhub.com, go to the green button that says "Code", click on it, and clone it. 
+- You can also type git clone https://github.com/adamteddychang/Week-5-capstone.git into your terminal. 
 
 
 
