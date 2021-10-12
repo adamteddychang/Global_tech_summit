@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 /* font-family: 'Lato', sans-serif; */
 
 html {
@@ -11,7 +12,7 @@ body {
   margin: 0;
 }
 
-#nav-btn{  
+#nav-btn {
   background-color: gainsboro;
   border: none;
 }
@@ -35,8 +36,8 @@ body {
 
 section {
   padding: 2rem 1rem;
-  margin: 0; 
-  font-family: 'Lato', sans-serif; 
+  margin: 0;
+  font-family: 'Lato', sans-serif;
 }
 
 #welcome-pg {
@@ -45,14 +46,22 @@ section {
 }
 
 .wel-msg1 {
-  color:red;
+  background: url(Images/textbg.png) no-repeat center center;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
   font-size: 20px;
   margin-bottom: 0;
   font-weight: 500;
 }
 
 .wel-msg2 {
-  color: red;
+  background: url(Images/textbg.png) no-repeat center center;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
   font-size: 32px;
   margin-top: 0;
   font-weight: 750;
@@ -61,77 +70,146 @@ section {
 .welcome-p {
   color: black;
   border: 1px solid white;
-  padding:1rem;
+  padding: 1rem;
   font-size: 18px;
   text-align: left;
   font-weight: 500;
 }
 
-.date1{
-  color: black;
+.date-place {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date1 {
+  color: #848785;
   font-size: 32px;
   text-align: center;
   margin-bottom: 0;
   font-weight: 600;
 }
 
-.loca1{
-  color: black;
+.loca1 {
+  color: #848785;
   font-size: 28px;
   text-align: center;
   margin-top: 0;
   font-weight: 600;
+  max-width: 70%;
 }
 
-@media (min-width: 1100px){
- #logo-img{
-   display: flex;
-   align-self: center;
-   margin-left: 6rem;
- }
- 
-  #desk-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between
- }
-
- .nav-list {
-  display: flex;
-  list-style-type: none;
-  
+#main-eve {
+  display: grid;
+  background: #000 repeating-linear-gradient(45deg, #111 2px, #222 3px, #222 4px, #111 7px);
+  color: white;
+  font-family: 'Lato', sans-serif;
 }
 
-.nav-list-items {
+.prog-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  color: #ec5242;
+}
+
+.line-br {
+  width: 40px;
+  background-color: #ec5242;
+  border: 1px solid #ec5242;
+}
+
+#event-list {
+  display: grid;
+  justify-items: center;
+}
+
+.eve-li-item {
   display: flex;
+  background-color: rgb(195, 199, 196, 0.3);
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.eve-li-icon.material-icons {
+  font-size: 32px;
+  align-self: center;
+  margin: 0 1rem;
+}
+
+.eve-content {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
-.nav_a {    
-  font-size: 24px;
-  line-height: 20px;
-  font-weight: 600;
-  text-align: center;
-  color: red;
-  margin-right: 32px;
-  
-  text-decoration: none;
- 
-
+.eve-title {
+  color: #ec5242;
 }
 
+.eve-p {
+  max-width: 70%;
+}
 
+.sq-btn {
+  background-color: #ec5242;
+  margin: 2rem 4rem;
+  height: 80%;
+  border: none;
+  color: white;
+  align-self: center;
+  padding: 1rem;
+}
 
+@media (min-width: 1100px) {
+  * {
+    font-family: 'Lato', sans-serif;
+  }
 
+  #logo-img {
+    display: flex;
+    align-self: center;
+    margin-left: 6rem;
+  }
 
+  #mob-nav {
+    display: none;
+  }
 
-  #welcome-pg{    
-    text-align: center;    
+  #desk-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: honeydew;
+  }
+
+  .nav-list {
+    display: flex;
+    list-style-type: none;
+  }
+
+  .nav-list-items {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav_a {
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: red;
+    margin-right: 32px;
+    text-decoration: none;
+  }
+
+  #welcome-pg {
+    text-align: center;
   }
 
   .welcome-pg-contain {
     max-width: 60%;
-    text-align: left;    
+    text-align: left;
     margin-left: 8vw;
   }
 
@@ -148,9 +226,70 @@ section {
     font-size: 20px;
   }
 
-  .date1,.loca1 {
+  .date-place {
+    align-items: flex-start;
+  }
+
+  .date1,
+  .loca1 {
     text-align: left;
   }
 
+  #main-eve{
+    justify-items: center;
+  }
+
+  #event-list {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);    
+    align-self: center;
+    justify-items: center;
+
+  }
+
+  .eve-li-item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+    width: 70%;
+    height: 90%;
+  }
+
+  .eve-li-item:first-child {
+    margin-left: 3rem;
+  }
+
+  .eve-li-icon.material-icons {
+    padding: 1rem 0;
+  }
+
+  .eve-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .eve-p {
+    width: 50%;
+    margin:0 0 2rem 0;
+  }
+
+  .sq-btn {
+    width: 25rem;
+    background: none;
+    text-align: center;
+    color: #ec5242;
+    font-size: 32px;
+    text-decoration: underline;
+    margin-bottom: 0;
+  }
+
+  
+
+
+
+
+
 
 }
+
+
