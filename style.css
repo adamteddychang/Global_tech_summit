@@ -12,8 +12,12 @@ body {
   margin: 0;
 }
 
+.head-container {
+  width: 100vw;
+}
+
 #nav-btn {
-  background-color: gainsboro;
+  background-color: transparent;
   border: none;
   font-size: 3rem;
 }
@@ -21,7 +25,8 @@ body {
 #menu {
   font-size: 3rem;
   z-index: 100;
-  position: relative;
+  position: fixed;
+  color: #ec5242;
 }
 
 #close {
