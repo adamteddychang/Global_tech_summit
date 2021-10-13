@@ -4,14 +4,14 @@
 
 > In this project, I will build a conference page with html, css and javascript. 
 
-- html![Screenshot (3)](https://user-images.githubusercontent.com/63560332/137163045-e675512f-39cf-4ab0-b554-2cb58d1e1d3a.png)
+![Screenshot](https://user-images.githubusercontent.com/63560332/137163045-e675512f-39cf-4ab0-b554-2cb58d1e1d3a.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
 
-
+- html
 - CSS
 - Javascript
 
