@@ -14,6 +14,7 @@ body {
 
 .head-container {
   width: 100vw;
+  z-index: 100;
 }
 
 #nav-btn {
@@ -91,8 +92,28 @@ section {
 }
 
 #welcome-pg {
-  background-color: gainsboro;
   margin: 0;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#welcome-pg::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  background-image: url(Images/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.welcome-pg-contain {
+  position: inherit;
 }
 
 .wel-msg1 {
@@ -133,7 +154,7 @@ section {
 }
 
 .date1 {
-  color: #848785;
+  color: #000;
   font-size: 32px;
   text-align: center;
   margin-bottom: 0;
@@ -141,7 +162,7 @@ section {
 }
 
 .loca1 {
-  color: #848785;
+  color: #000;
   font-size: 28px;
   text-align: center;
   margin-top: 0;
@@ -285,6 +306,29 @@ section {
 .spon {
   margin: 1rem 2rem;
   justify-self: center;
+}
+
+footer {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.bottom-logo {
+  align-self: center;
+}
+
+.tm-msg p {
+  font-size: 16px;
+  margin-bottom: 0;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+}
+
+.tm-msg p:first-child {
+  font-size: 24px;
 }
 
 @media (min-width: 1100px) {
@@ -447,5 +491,15 @@ section {
 
   .spon {
     align-items: center;
+  }
+
+  footer {
+    padding: 2rem 5rem;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .tm-msg p {
+    margin: 0 2rem;
   }
 }
