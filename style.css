@@ -263,6 +263,30 @@ section {
   font-size: 16px;
 }
 
+#sponsors {
+  display: grid;
+  justify-content: center;
+  background-color: #3b3a38;
+}
+
+.sponsor-title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.spon-contain {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.spon {
+  margin: 1rem 2rem;
+  justify-self: center;
+}
+
 @media (min-width: 1100px) {
   * {
     font-family: 'Lato', sans-serif;
@@ -407,5 +431,21 @@ section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 2rem;
+  }
+
+  #sponsors {
+    padding: 0;
+    justify-content: normal;
+  }
+
+  .spon-contain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2rem 0 2rem;
+  }
+
+  .spon {
+    align-items: center;
   }
 }
