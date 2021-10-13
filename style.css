@@ -359,7 +359,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: honeydew;
+    background-color: #fff;
   }
 
   .desk-nav-list {
