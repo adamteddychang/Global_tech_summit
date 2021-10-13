@@ -394,6 +394,10 @@ section {
     padding: 0;
   }
 
+  #presenters {
+    justify-content: center;
+  }
+
   #presenter-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
