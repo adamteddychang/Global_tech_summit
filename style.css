@@ -319,7 +319,7 @@ section {
 footer {
   padding: 1rem 2rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-content: center;
 }
 
@@ -328,15 +328,11 @@ footer {
 }
 
 .tm-msg p {
-  font-size: 16px;
-  margin-bottom: 0;
-  text-align: center;
+  font-size: 14px;
+  margin: 0 1rem;
+  text-align: left;
   font-family: 'Lato', sans-serif;
-  font-weight: 500;
-}
-
-.tm-msg p:first-child {
-  font-size: 24px;
+  font-weight: 400;
 }
 
 .abt-title {
@@ -440,8 +436,8 @@ footer {
 }
 
 .abt-footer {
-  background-color: #000;
-  color: #fff;
+  background-color: inherit;
+  color: #000;
 }
 
 @media (min-width: 1100px) {
