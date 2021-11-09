@@ -18,7 +18,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://adamteddychang.github.io/Week-5-capstone)
+[Live Demo Link](https://adamteddychang.github.io/Global_tech_summit/)
 
 
 ## Getting Started
