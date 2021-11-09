@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Capstone project
+# Global_tech_summit
 
 > In this project, I will build a conference page with html, css and javascript. 
 
