@@ -4,7 +4,7 @@
 
 > In this project, I will build a conference page with html, css and javascript. 
 
-![Screenshot](https://user-images.githubusercontent.com/63560332/137163045-e675512f-39cf-4ab0-b554-2cb58d1e1d3a.png)
+![screencapture-adamteddychang-github-io-Global-tech-summit-2022-04-27-12_14_59](https://user-images.githubusercontent.com/63560332/165496360-3d834619-2476-479b-9bfe-7ba4c96b83fc.png)
 
 
 
